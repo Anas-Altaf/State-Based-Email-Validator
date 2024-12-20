@@ -1,4 +1,4 @@
-package dev.codcop;
+package dev.codcop.state_based;
 
 public enum State {
     START,

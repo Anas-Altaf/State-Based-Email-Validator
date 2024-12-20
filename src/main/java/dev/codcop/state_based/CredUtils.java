@@ -1,4 +1,4 @@
-package dev.codcop;
+package dev.codcop.state_based;
 
 //F223639@codcop.dev
 public class CredUtils {
@@ -57,7 +57,6 @@ public class CredUtils {
                     break;
                 case INVALID:
                     return false;
-
                 default:
                     state = State.INVALID;
                     break;
